@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet/styles.css">
+    <title>Jesh Limbu - Developer Portfolio</title>
+</head>
+<body>
+    <header class="jumbotron">
+        <h1>Jesh Limbu</h1>
+        <p>Welcome to my portfolio website!</p>
+    </header>
+
+    <section id="about" class="container">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div style="width: 70%;">
+                <h2>About Me</h2>
+                <p>Hello! I'm Jesh Limbu, a passionate web and mobile developer based in Birtamode, Jhapa. I specialize in creating dynamic and user-friendly web applications while also delving into the world of mobile development. My journey in web development began 5 years ago, and since then, I've been dedicated to delivering high-quality solutions for both web and mobile platforms.</p>
+                <p>As a web developer, my skills include proficiency in HTML5, CSS3, JavaScript, and frameworks like React. I have experience in building responsive and intuitive user interfaces that enhance the overall user experience.</p>
+                <p>On the mobile development front, I am adept at using Java and Android Studio to create innovative Android applications. My goal is to leverage my skills in both web and mobile development to craft solutions that make a meaningful impact.</p>
+                <p>Let's connect and build something extraordinary together!</p>
+            </div>
+            <a href="images/jesh.JPG">
+            <img src="images/jesh.JPG" alt="Jesh Limbu" style="width: auto; height: 350px; border-radius: 8px;" />
+            </a>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+<br>
+            <h3>Mobile Development</h3>
+            <li>Java (Android)</li>
+            <li>Kotlin (Android)</li>
+            <li>Swift (iOS)</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <!-- eBook Management System Project -->
+        <div class="project">
+            <div class="project-content">
+                <h3>eBook Management System</h3>
+                <p>Developed an advanced eBook Management System to streamline the process of organizing, accessing, and managing digital book collections. The system provides users with a user-friendly interface to categorize books, track reading progress, and seamlessly access their eBooks from any device.</p>
+                <p><b>Key Features:</b></p>
+                <ul>
+                    <li>User Authentication</li>
+                    <li>Book Categorization</li>
+                    <li>Reading Progress Tracking</li>
+                    <li>Search and Filters</li>
+                    <li>Responsive Design</li>
+                </ul>
+                <p>Technologies Used: HTML5, CSS3, JavaScript, Node.js, Express.js, MongoDB, Passport.js, Bootstrap</p>
+            </div>
+            <img src="images/workshop.jpg" alt="eBook Management System" />
+        </div>
+
+        <!-- Dementia Helping App Project -->
+        <div class="project">
+            <div class="project-content">
+                <h3>Dementia Helping App for Android</h3>
+                <p>Designed and developed a mobile application aimed at assisting individuals with dementia and their caregivers. The Dementia Helping App provides a range of features to improve daily life, including memory aids, reminders, and emergency contact assistance.</p>
+                <p><b>Key Features:</b></p>
+                <ul>
+                    <li>Memory Aids</li>
+                    <li>Emergency Contacts</li>
+                    <li>Calendar Integration</li>
+                    <li>User-Friendly Interface</li>
+                    <li>location tracking and fall detection</li>
+                </ul>
+                <p>Technologies Used: Java, Android Studio, Firebase</p>
+            </div>
+            <img src="images/workshop1.jpg" alt="Dementia Helping App" />
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact Information</h2>
+        <p>Mobile: <a href="tel: 9779801741978">9817041978</a></p>
+        <p>Email: <a href="mailto:jeshlimbu932@gmail.com">jeshlimbu932@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/jesh-662929278/" target="_blank">LinkedIn Profile</a></p>
+        <p>GitHub: <a href="https://github.com/jeshl" target="_blank">GitHub Profile</a></p>
+    </section>
+
+    <footer style="background-color: #e9ecef; color: #939292;">
+        <div class="container">
+            <p>&copy; 2024 Jesh Limbu - Web and Mobile Developer</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+<?php 
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+
+    $conn = mysqli_connect($servername, $username, $password);
+
+?>
