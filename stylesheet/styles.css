@@ -1,0 +1,169 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 70%;
+}
+
+.column1{
+    flex: auto;
+    margin-top: 20px;
+    }
+
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: gray;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: gray;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 20px 0;
+}
+
+h2 {
+    color: #343a40;
+    border-bottom: 2px solid #343a40;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.project { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 23px;
+} 
+
+.project-content {
+    width: calc(100% - 200px);
+    text-align: justify;
+}
+
+.project h3 {
+    color: #343a40;
+}
+
+.project img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#about p {
+    text-align: justify;
+}
+
+.selfimg{
+    width: 180px; 
+    height: 280px; 
+    border-radius: 8px; 
+    float: right;
+}
+
+
+
+/* Media Queries */
+
+/* For screens smaller than 768px (e.g., tablets) */
+@media screen and (max-width: 768px) {
+    /* Adjust header font size */
+    .jumbotron h1 {
+        font-size: 24px;
+    }
+
+    section {
+        padding: 0px 0;
+    }
+
+    /* Adjust about section layout */
+    #about .row {
+        flex-direction: column;
+    }
+
+    #skills .col-lg-6 {
+        width: 100%;
+    }
+
+    #projects .project{
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    /* Adjust about section image */
+    #about img {
+        width: 100%;
+        height: auto;
+    }
+
+    .project img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+}
+
+/* For screens smaller than 576px (e.g., smartphones) */
+@media screen and (max-width: 576px) {
+    /* Adjust header font size further */
+    .jumbotron h1 {
+        font-size: 20px;
+    }
+
+    section {
+        padding: 0px 0;
+    }
+
+    /* Adjust about section column layout */
+    .column,
+    .column1 {
+        width: 100%;
+    }
+
+    .project-content {
+        width: 100%;
+    }
+}
