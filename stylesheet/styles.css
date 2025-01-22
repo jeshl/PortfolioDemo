@@ -15,6 +15,7 @@ header {
 }
 
 #fix-nav{
+    display: flex;
     position: fixed;
     top: 0;
 }
