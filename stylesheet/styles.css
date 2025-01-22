@@ -12,12 +12,8 @@ header {
     color: #ffffff;
     text-align: center;
     padding: 50px 0;
-}
-
-#fix-nav{
-    display: flex;
     position: fixed;
-    top: 0px;
+    top: 0;
 }
 
 header h1 {
