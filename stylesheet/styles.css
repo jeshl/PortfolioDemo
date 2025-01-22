@@ -16,6 +16,7 @@ header {
 
 .fix-nav{
     position: fixed;
+    top: 0;
 }
 
 header h1 {
