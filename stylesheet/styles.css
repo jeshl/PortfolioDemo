@@ -14,7 +14,7 @@ header {
     padding: 50px 0;
 }
 
-.fix-nav{
+#fix-nav{
     position: fixed;
     top: 0;
 }
