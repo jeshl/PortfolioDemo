@@ -17,7 +17,7 @@ header {
 #fix-nav{
     display: flex;
     position: fixed;
-    top: 0;
+    top: 0px;
 }
 
 header h1 {
